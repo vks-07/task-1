@@ -12,17 +12,22 @@
 .body{
     background-color: #8e5959;
 }
-.wrapper{
+#wrapper{
+
     overflow-y: hidden;
     width: 100vw;
-    height: 100vh;
-    background-color: blue;
+    /* height: 100vh; */
+    background-color: rgb(131, 131, 188);
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .container{
+    border-radius: 10px ;
     margin: 3rem auto ;
     width: 80%;
-    height: 80%;
+    height: 70%;
     background-color: #4a2f9b;
     padding-bottom: 2rem;
 }
@@ -59,6 +64,7 @@
     flex-direction:column;
     gap: 2rem;
     width: 70%;
+    padding-bottom: 3rem;
 }
 
 .left h1{
@@ -75,12 +81,12 @@
     font-weight: 600;
 }
 .inp{
-    
+    padding: 20px;
+    border-radius: 10px;
 }
 .frm{
     display: grid;
-    gap: 0.5rem;
-    
+    gap: 0.7rem;
     grid-template-columns: repeat(2,20rem);
 }
 
@@ -97,11 +103,17 @@
 
 }
 .inp{
-    background-color: #675894;
+    background-color: #595174;
+    
+}
+input{
+    color: rgb(212, 198, 198);
 }
 .inp-2{
+    
+    padding: 10px;
     width: 40.5rem;
-    height: 17rem;
+    height: 10rem;
     font-weight: 500;
     color: beige;
     background-color: #cb91db;
@@ -123,6 +135,7 @@
 
 }
 .links{
+    margin-top: 1rem;
     display: flex;
     gap: 2rem;
 }   
@@ -144,5 +157,6 @@
 }
 
 .link{
-    padding-top: 5rem;
+    
+    padding-top: 15rem;
 }
